@@ -1,0 +1,19 @@
+import { VerticalBox , Button} from "std-widgets.slint";
+export component AppWindow {
+    VerticalBox {
+        rect:= Rectangle {
+            height: 100px;
+            background: btn.pressed ? green : red;
+            Text {
+                text: "Hello World";
+                font-size: 18px;
+                horizontal-alignment: center;
+            }
+        }
+        btn:= Button { 
+            height: 100px;
+            text: "Press me!";
+         }
+    }
+    
+}
