@@ -31,7 +31,7 @@
 #define LCD_PARAM_BITS 8
 
 // Supported alignment: 16, 32, 64. A higher alignment can enables higher burst transfer size, thus a higher i80 bus throughput.
-#define PSRAM_DATA_ALIGNMENT 32
+#define PSRAM_DATA_ALIGNMENT 64
 
 #define LCD_TOUCH_SDA 18
 #define LCD_TOUCH_SCL 17

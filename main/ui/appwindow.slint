@@ -1,6 +1,7 @@
-import { VerticalBox , Button} from "std-widgets.slint";
+import { VerticalBox , Button, AboutSlint } from "std-widgets.slint";
 export component AppWindow {
     VerticalBox {
+        AboutSlint {}
         rect:= Rectangle {
             height: 100px;
             background: btn.pressed ? green : red;
